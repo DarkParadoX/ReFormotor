@@ -143,6 +143,7 @@
             this.richTextBox1.Size = new System.Drawing.Size(304, 455);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
+            this.richTextBox1.WordWrap = false;
             // 
             // menuStrip3
             // 
@@ -219,6 +220,7 @@
             this.richTextBox2.Size = new System.Drawing.Size(264, 476);
             this.richTextBox2.TabIndex = 0;
             this.richTextBox2.Text = "";
+            this.richTextBox2.WordWrap = false;
             // 
             // menuStrip4
             // 
@@ -261,6 +263,7 @@
             this.richTextBox3.Size = new System.Drawing.Size(264, 476);
             this.richTextBox3.TabIndex = 0;
             this.richTextBox3.Text = "";
+            this.richTextBox3.WordWrap = false;
             // 
             // tabControl2
             // 
@@ -318,12 +321,14 @@
             // 
             // rtbRegexOrigin
             // 
+            this.rtbRegexOrigin.DetectUrls = false;
             this.rtbRegexOrigin.Dock = System.Windows.Forms.DockStyle.Fill;
             this.rtbRegexOrigin.Location = new System.Drawing.Point(0, 20);
             this.rtbRegexOrigin.Name = "rtbRegexOrigin";
             this.rtbRegexOrigin.Size = new System.Drawing.Size(451, 481);
             this.rtbRegexOrigin.TabIndex = 2;
             this.rtbRegexOrigin.Text = "";
+            this.rtbRegexOrigin.WordWrap = false;
             // 
             // tbRegexMask
             // 
@@ -343,6 +348,7 @@
             this.rtbRegexReplace.Size = new System.Drawing.Size(459, 481);
             this.rtbRegexReplace.TabIndex = 3;
             this.rtbRegexReplace.Text = "";
+            this.rtbRegexReplace.WordWrap = false;
             // 
             // tbRegexReplaseMask
             // 
